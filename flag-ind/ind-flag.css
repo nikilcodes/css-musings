@@ -1,0 +1,87 @@
+
+.flag-container{
+    border:1px solid black;
+    height:330px;
+    width:30%;
+  }
+  .top{
+    height:33.3%;
+    background-color:orange;
+  }
+  .mid{
+    height:33.3%;
+    background-color:#fff;
+  }
+  .bottom{
+    height:33.3%;
+    background-color:green;
+  }
+  .circle-outer{
+    border:1px solid blue;
+    width:27%;
+    height:98%;
+    border-radius:50%;
+    background-color:blue;
+  }
+  .circle-position{
+    position:relative;
+    margin:auto;
+  }
+  .circle-inner{
+    display:flex;
+    justify-content:center;  
+    border:1px solid blue;
+    width:88%;
+    height:88%;
+    border-radius:50%;
+    background-color:white;
+  }
+  .circle-inner-position{
+    position:relative;
+    margin:0.26rem 0.3rem;
+  }
+
+  .verticle-line,.horizontal-line,
+  .verticle-line2,.verticle-line3, 
+  .rev-verticle-line2,.rev-verticle-line3{
+    position:absolute;
+    border:1px solid blue;
+    background:blue; 
+  }
+  .verticle-line{
+    height:100%;
+    width:1px;
+    margin:0 1.79rem;
+  }
+  .horizontal-line{
+    height:1px;
+    width:100%;
+    top:50%;
+  }
+  .verticle-line2{
+
+    height:100%;
+    width:1px; 
+    margin:0 1.79rem;
+     transform: rotate(60deg);
+  }
+  .verticle-line3{
+
+    height:100%;
+    width:1px;
+    margin:0 1.79rem;
+     transform: rotate(30deg);
+  }
+  
+  .rev-verticle-line2{
+    height:100%;
+    width:1px;
+    margin:0 1.79rem;
+    transform: rotate(-60deg);
+  }
+  .rev-verticle-line3{
+    height:100%;
+    width:1px;
+    margin:0 1.79rem;
+    transform: rotate(-30deg);
+  }
